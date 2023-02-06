@@ -12,7 +12,10 @@ int main() {
   cout<<p.first<<" "<<p.second.first<<" "<<p.second.second;  
   //p.first=1 p.second.first=2 p.second.second=3
   
-  
+  // Pair as Array
+  pair<int,int> arr[]={{1,2},{2,3},{3,4}};
+            // Indexing  0     1     2 
+  cout<<arr[1].second;  // output= 3
 
   pair<int,string>p;
   // Two way to make a pair
