@@ -1,6 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
+  // Basic allocation of Pairs
+  pair<int,int> p={1,3};              // its store any number of variable in pair
+  cout<<p.first<<" "<<p.second;      
+  //p.first =1 ,p.second=3
+  
+  
+  // Nesting of pairs
+  pair<int,pair<int,int>> p={1,{2,3}};
+  cout<<p.first<<" "<<p.second.first<<" "<<p.second.second;  
+  //p.first=1 p.second.first=2 p.second.second=3
+  
+  
 
   pair<int,string>p;
   // Two way to make a pair
